@@ -43,7 +43,7 @@ def won?(board)
 end 
 
 def full? (board)
-  if (board.all? } {|x| x != " "})
+  if (board.all? {|x| x != " "})
     true
   else
     false
