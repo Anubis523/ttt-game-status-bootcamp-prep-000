@@ -70,6 +70,7 @@ end
 
 def winner(board)
   if (won?(board))
-    if 
+    if ()
+    end
   end
 end
