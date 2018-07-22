@@ -35,7 +35,7 @@ def won?(board)
     middle_column_win
   elsif (right_column_win.all? {|x| board[x] == "X"} || right_column_win.all? {|x| board[x] == "O"})
     right_column_win
-  elsif (left_diagonal_win.all? {|x| board[x] == ""})
+  elsif (left_diagonal_win.all? {|x| board[x] == "X"} || (left_diagonal_win.all? {|x| board[x] == "O"})
   end
 end 
 
