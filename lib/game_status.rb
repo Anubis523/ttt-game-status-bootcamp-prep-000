@@ -61,5 +61,6 @@ def draw? (board)
 end
 
 def end? (board)
-  
+  if (draw?(board))
+  end
 end
