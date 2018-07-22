@@ -59,3 +59,7 @@ def draw? (board)
     end
   end
 end
+
+def end? (board)
+  
+end
