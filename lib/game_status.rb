@@ -43,5 +43,9 @@ def won?(board)
 end 
 
 def over? (board) 
-  return board.each do |x| x != " " end
+  if (board.all? {|x| x != " "})
+    false 
+  else
+    true
+  end
 end
