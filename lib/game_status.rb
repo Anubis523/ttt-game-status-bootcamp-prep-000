@@ -42,3 +42,6 @@ def won?(board)
   end
 end 
 
+def full? (board)
+  if (board.all? } {|x| x != })
+end
