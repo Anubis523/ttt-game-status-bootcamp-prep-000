@@ -42,10 +42,3 @@ def won?(board)
   end
 end 
 
-def over? (board) 
-  if (board.all? {|x| x != " "})
-    false 
-  else
-    true
-  end
-end
