@@ -49,3 +49,14 @@ def full? (board)
     false
   end
 end
+
+def draw? (board)
+  if (full?(board))
+    if (!won?(board))
+      true
+    else
+      false 
+    end
+  end
+end
+}
