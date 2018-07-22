@@ -60,7 +60,7 @@ def draw? (board)
   end
 end
 
-def end? (board)
+def over? (board)
   if (draw?(board))
   end
 end
